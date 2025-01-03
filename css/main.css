@@ -22,7 +22,7 @@ body{
     gap: 20px;
     
     border: double green 5px;
-    margin: 0 200px;
+    margin: 0 auto;
     padding: 80px 80px;
     background-image: url('../img/simon.jpg');
     background-size: 200px 200px; /* Tamaño de las miniaturas de la imagen */

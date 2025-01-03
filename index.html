@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simon</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <h1 class="encabezado">SIMON-CASERO</h1>
+
+    <div id="contenedor">
+        <div id="nivel">
+            <p style="font-size: 20px; text-align: center; color: white;">Elegir Nivel</p>
+            <button id="seleccion" class="inicial" data-value="KARATEKA">KARATEKA</button>
+            <button id="seleccion" class="experto" data-value="NINJA">NINJA</button>
+            <button id="seleccion" class="samurai" data-value="SAMURAI">SAMURAI</button>
+            <button id="seleccion" class="emperador" data-value="EMPERADOR">EMPERADOR</button>
+        </div>
+        <div id="contenedor__botones">
+            <!-- <button id="generate-sequence">Generar Secuencia</button> -->
+            <button id="start-game">Comenzar</button>
+        </div>
+        <div id="botones-juego">
+            <button id="boton-1" class="boton1" data-value="1">1</button>
+            <button id="boton-2" class="boton2" data-value="2">2</button>
+            <button id="boton-3" class="boton3" data-value="3">3</button>
+            <button id="boton-4" class="boton4" data-value="4">4</button>
+        </div>
+        
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script type="module" src="./js/main.js"></script>
+</body>
+</html>
+

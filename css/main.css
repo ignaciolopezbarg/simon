@@ -1,0 +1,100 @@
+body{
+    background-color: bisque;
+}
+.encabezado {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: darkgoldenrod;
+}
+.boton1, .boton2, .boton3, .boton4 {
+    border: solid 2px red;
+    border-radius: 50%;
+    width: 160px;
+    height: 80px;
+    cursor: pointer;
+}
+#contenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    
+    border: double green 5px;
+    margin: 0 200px;
+    padding: 80px 80px;
+    background-image: url('../img/simon.jpg');
+    background-size: 200px 200px; /* Tamaño de las miniaturas de la imagen */
+        background-repeat: repeat;
+}
+.boton1 {
+    color: white;
+    background-color: red;
+    font-size: 2rem;
+}
+.boton2 {
+    color: white;
+    background-color: green;
+    font-size: 2rem;
+}
+.boton3 {
+    color: white;
+    background-color: blue;
+    font-size: 2rem;
+}
+.boton4 {
+    color: white;
+    background-color: rgb(161, 161, 45);
+    font-size: 2rem;
+}
+#contenedor__botones {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+#generate-sequence, #start-game {
+    width: 160px;
+    height: 80px;
+    border: solid 2px blue;
+    border-radius: 15px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+#generate-sequence {
+    background-color: rgb(229, 185, 74);
+}
+#generate-sequence:hover{
+    background-color: chocolate;
+}
+#start-game {
+    background-color: rgb(255, 166, 0);
+}
+#start-game:hover{
+    background-color: chocolate;
+}
+
+.boton-resaltado {
+    transform: scale(1.2); /* Aumenta el tamaño del botón */
+    transition: transform 0.5s; /* Suaviza la animación */
+}
+
+.boton-clickeado {
+    transform: scale(1.1); /* Aumentar ligeramente el tamaño */
+    transition: transform 0.2s ease, background-color 0.2s ease; /* Suavizar animación */
+    background-color: rgba(255, 255, 255, 0.7); /* Color más claro temporalmente */
+}
+#seleccion{
+    width: 120px;
+    height: 40px;
+    border: solid 2px blue;
+    border-radius: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    gap: 20px;
+    background-color: rgb(245, 186, 58);
+}
+#seleccion:hover{
+    background-color: violet;
+}
+

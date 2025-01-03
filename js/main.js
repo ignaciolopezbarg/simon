@@ -45,8 +45,6 @@
 // // Inicializamos los eventos
 // elegirNivel();
 
-
-
 // let secuencia = [];
 // let indiceActual = 0;
 
@@ -170,8 +168,8 @@ function elegirNivel() {
         case "SAMURAI":
           cantidad = 15;
           break;
-          case "EMPERADOR":
-            cantidad = 20;
+        case "EMPERADOR":
+          cantidad = 20;
           break;
         default:
           cantidad = 5; // Valor por defecto
@@ -187,7 +185,9 @@ function elegirNivel() {
       // Aquí podrías actualizar la interfaz con el resultado generado
       const resultadoDiv = document.getElementById("resultado");
       if (resultadoDiv) {
-        resultadoDiv.innerText = `Nivel: ${nivel}, Secuencia: [${secuencia.join(", ")}]`;
+        resultadoDiv.innerText = `Nivel: ${nivel}, Secuencia: [${secuencia.join(
+          ", "
+        )}]`;
       }
     });
   });
